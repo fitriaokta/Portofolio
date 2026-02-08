@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const typedText = document.querySelector('.typed-text');
   const cursor = document.querySelector('.cursor');
 
-  const words = ["Teknisi Jaringan ", "Fresh Graduate ", "Freelancer "];
+  const words = ["Networking ", "Fresh Graduate ", "Problem Solving "];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
@@ -57,4 +57,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   typeWriter();
+
 });
